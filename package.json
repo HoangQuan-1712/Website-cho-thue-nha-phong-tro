@@ -1,8 +1,10 @@
 {
   "name": "dacn",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,17 @@
   "homepage": "https://github.com/HoangQuan-1712/Website-cho-thue-nha-phong-tro#readme",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.0",
     "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "sass": "^1.87.0"
   }
 }
