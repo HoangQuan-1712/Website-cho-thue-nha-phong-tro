@@ -1,0 +1,23 @@
+{
+  "name": "dacn",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoangQuan-1712/Website-cho-thue-nha-phong-tro.git"
+  },
+  "author": "HoangQuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangQuan-1712/Website-cho-thue-nha-phong-tro/issues"
+  },
+  "homepage": "https://github.com/HoangQuan-1712/Website-cho-thue-nha-phong-tro#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
